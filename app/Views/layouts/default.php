@@ -128,3 +128,123 @@
 </body>
 
 </html>
+
+<footer id="footer">
+
+  <div class="centered-wrapper">
+
+    <div id="topfooter">
+      <div class="widget-odd widget-5 widget footer-widget">
+        <div class="textwidget"><img style="width:150px;"
+            src="https://www.mtds.com/wp-content/uploads/2016/04/mtds-logo-white-2019.png" alt="MTDS Logo">
+          <br><br>MTDS is an information technology and development consulting firm based in Rabat, Morocco.<br>
+          Our company is an Internet Service Provider (ISP) and is well-known for its cutting edge expertise in
+          security networks. Our team is also specialized in Information and Communication Technology (ICT)
+          applications for development initiatives.
+        </div>
+      </div>
+      <div class="widget-even widget-6 widget footer-widget">
+        <h3>Solutions</h3>
+        <div class="textwidget">
+          <div class="menu-solutions-container">
+            <ul id="menu-solutions" class="menu">
+              <li id="menu-item-1364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364"><a
+                  href="https://www.mtds.com/website-hosting/">Website Hosting</a></li>
+              <li id="menu-item-1366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1366"><a
+                  href="https://www.mtds.com/internet-in-morocco/">Internet Service</a></li>
+              <li id="menu-item-1363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1363"><a
+                  href="https://www.mtds.com/network-security/">Network and Information Security</a></li>
+              <li id="menu-item-1365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1365"><a
+                  href="https://www.mtds.com/domain-names/">Domain Names</a></li>
+              <li id="menu-item-1362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1362"><a
+                  href="https://www.mtds.com/ict-for-social-development/">ICT4D</a></li>
+            </ul>
+          </div>
+
+          <h3>Support</h3>
+          <p>
+            Phone +212 537 674 861<br>
+            Fax +212 537 674 863<br>
+            <a href="mailto:support@mtds.com" title="MTDS support" class="linkblue"
+              style="font-weight:bold;">support@mtds.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="widget-odd widget-7 widget footer-widget">
+        <h3>Company</h3>
+        <div class="textwidget">
+          <div class="menu-company-container">
+            <ul id="menu-company" class="menu">
+              <li id="menu-item-1370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1370"><a
+                  href="https://www.mtds.com/about-us/">About</a></li>
+              <li id="menu-item-1374" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1374"><a
+                  target="_blank" href="https://clients.mtds.com/">Your account</a></li>
+              <li id="menu-item-1375" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1375"><a
+                  target="_blank" href="https://webmail.mtds.com/">Webmail</a></li>
+              <li id="menu-item-1370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1370"><a
+                  href="https://www.mtds.com/clients/">Clients</a></li>
+              <li id="menu-item-1369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1369"><a
+                  href="https://www.mtds.com/#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="widget-even widget-last widget-8 widget footer-widget">
+        <h3>Contact Us</h3>
+        <div class="textwidget">
+          <div itemscope="" itemtype="https://schema.org/LocalBusiness">
+            <span itemprop="name">MTDS</span>
+            <div itemprop="description">Internet and Technology Solutions</div>
+            <div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+              <span itemprop="streetAddress">14, Rue 16 Novembre</span>
+              <br> <span itemprop="addressLocality">Rabat</span>,
+              <span itemprop="addressCountry">Kingdom of Morocco</span>
+              <br> Phone: <span itemprop="telephone">+212 537 674861</span>
+              <a href="mailto:info@mtds.com" style="font-weight:bold;">info@mtds.com</a>
+            </div>
+
+            <div class="socialBloc">
+              <a href="https://www.facebook.com/internetinmorocco/" title="MTDS Facebook" class="logoFb"></a> <a
+                href="https://www.linkedin.com/company/mtds" title="MTDS Linkedin" class="logoLinkedin"></a> <a
+                href="https://plus.google.com/+MTDSRabat" title="MTDS Google+" class="logoGoogle"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end topfooter-->
+
+
+    </div>
+    <!--end centered-wrapper-->
+
+
+    <div id="bottomfooter">
+      <div class="centered-wrapper">
+        <div class="percent-two-third">
+          <p>Copyright 2022 - MTDS.</p>
+          <div class="legal-links">
+            <ul id="menu-terms-of-service" class="menu">
+              <li id="menu-item-9221"
+                class="link-item menu-item menu-item-type-post_type menu-item-object-page menu-item-9221"><a
+                  href="https://www.mtds.com/terms-of-service/">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--end percent-two-third-->
+
+        <div class="percent-one-third column-last">
+          <ul id="social">
+
+          </ul>
+
+        </div>
+        <!--end percent-one-third-->
+      </div>
+      <!--end centered-wrapper-->
+    </div>
+    <!--end bottomfooter-->
+
+    <a href="#" class="totop"><i class="fa fa-angle-double-up"></i></a>
+
+  </div>
+</footer>

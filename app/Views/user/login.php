@@ -19,7 +19,7 @@
   <!----------------------- Main Container -------------------------->
   <div class="container d-flex justify-content-center align-items-center min-vh-100">
     <!----------------------- Login Container -------------------------->
-    <div class="row border rounded-5 p-0 bg-white shadow box-area" style="height:700px">
+    <div class="row border rounded p-0 bg-white shadow box-area" style="height:700px">
       <!--------------------------- Left Box ----------------------------->
       <div class="col-md-6 p-3 right-box m-auto p-5">
         <div class="header-text mb-4">
