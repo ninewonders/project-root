@@ -1,0 +1,1505 @@
+INFO - 2023-05-10 08:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-10 08:18:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-10 08:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:18:58 --> 
+INFO - 2023-05-10 08:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-10 08:19:10 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-10 08:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:19:11 --> 
+INFO - 2023-05-10 08:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-10 08:19:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-10 08:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:19:28 --> 
+INFO - 2023-05-10 08:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-10 08:19:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-10 08:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-10 08:19:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-10 08:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-10 08:20:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-10 08:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:20:15 --> 
+INFO - 2023-05-10 08:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-10 08:21:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-10 08:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-10 08:21:25 --> Undefined variable $header
+in APPPATH\Middlewares\AuthMiddleware.php on line 20.
+ 1 APPPATH\Middlewares\AuthMiddleware.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'C:\\xampp\\htdocs\\ci4\\project-root\\app\\Middlewares\\AuthMiddleware.php', 20)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Middlewares\AuthMiddleware->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('home', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-10 08:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:21:40 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:22:06 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:22:08 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:22:09 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:28:10 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:28:14 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:28:22 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:28:22 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:28:24 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:28:26 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:36:03 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:37:21 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:37:34 --> 
+INFO - 2023-05-10 08:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:38:31 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:39:01 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:41:01 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:46:39 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:48:52 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:49:26 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:53:18 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:53:29 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:53:38 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:53:45 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:53:51 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:55:04 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:57:59 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 08:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 08:59:11 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:01:35 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:04:41 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:05:35 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:05:48 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:07:10 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:07:56 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:10:25 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:13:00 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:13:48 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:14:11 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:14:37 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:15:24 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:15:49 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:16:35 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:17:25 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:20:03 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:20:56 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:20:58 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+ERROR - 2023-05-10 09:20:59 --> mysqli_sql_exception: Unknown column 'prix_unitaire' in 'field list' in C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sp...', 0)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4\project-root\app\Controllers\DevisController.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+#9 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+#10 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\project-root\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-10 09:20:59 --> Unknown column 'prix_unitaire' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (1, 1, \'0\', \'0\', \'0\', \'2023-05-10 09:20:59\', \'2023-05-10 09:20:59\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (1, 1, \'0\', \'0\', \'0\', \'2023-05-10 09:20:59\', \'2023-05-10 09:20:59\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (1, 1, \'0\', \'0\', \'0\', \'2023-05-10 09:20:59\', \'2023-05-10 09:20:59\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (:id_serveur:, :id_service:, :quantite:, :prix_unitaire:, :prix:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DevisController.php(83): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-10 09:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:22:35 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:22:39 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+ERROR - 2023-05-10 09:22:39 --> mysqli_sql_exception: Unknown column 'prix_unitaire' in 'field list' in C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sp...', 0)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4\project-root\app\Controllers\DevisController.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+#9 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+#10 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\project-root\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-10 09:22:39 --> Unknown column 'prix_unitaire' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (2, 1, \'0\', \'0\', \'0\', \'2023-05-10 09:22:39\', \'2023-05-10 09:22:39\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (2, 1, \'0\', \'0\', \'0\', \'2023-05-10 09:22:39\', \'2023-05-10 09:22:39\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (2, 1, \'0\', \'0\', \'0\', \'2023-05-10 09:22:39\', \'2023-05-10 09:22:39\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (:id_serveur:, :id_service:, :quantite:, :prix_unitaire:, :prix:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DevisController.php(83): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+ERROR - 2023-05-10 09:23:22 --> mysqli_sql_exception: Unknown table 'calculateur.tokens' in C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `tok...', 0)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `tok...')
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `tok...')
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `tok...')
+#4 C:\xampp\htdocs\ci4\project-root\app\Database\Migrations\2023-05-08-170802_CreateTokenTable.php(47): CodeIgniter\Database\Forge->dropTable('tokens')
+#5 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTokensTable->down()
+#6 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\ci4\project-root\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+INFO - 2023-05-10 09:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:23:33 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:23:36 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+ERROR - 2023-05-10 09:23:36 --> mysqli_sql_exception: Unknown column 'prix_unitaire' in 'field list' in C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sp...', 0)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4\project-root\app\Controllers\DevisController.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+#9 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+#10 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\project-root\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-10 09:23:36 --> Unknown column 'prix_unitaire' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (3, 1, \'0\', \'0\', \'0\', \'2023-05-10 09:23:36\', \'2023-05-10 09:23:36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (3, 1, \'0\', \'0\', \'0\', \'2023-05-10 09:23:36\', \'2023-05-10 09:23:36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (3, 1, \'0\', \'0\', \'0\', \'2023-05-10 09:23:36\', \'2023-05-10 09:23:36\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (:id_serveur:, :id_service:, :quantite:, :prix_unitaire:, :prix:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DevisController.php(83): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-10 09:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:23:37 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:23:44 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:23:47 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:23:56 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+ERROR - 2023-05-10 09:23:56 --> mysqli_sql_exception: Unknown column 'prix_unitaire' in 'field list' in C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sp...', 0)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4\project-root\app\Controllers\DevisController.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+#9 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+#10 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\project-root\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-10 09:23:56 --> Unknown column 'prix_unitaire' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (4, 1, \'4\', \'4\', \'56\', \'2023-05-10 09:23:56\', \'2023-05-10 09:23:56\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (4, 1, \'4\', \'4\', \'56\', \'2023-05-10 09:23:56\', \'2023-05-10 09:23:56\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (4, 1, \'4\', \'4\', \'56\', \'2023-05-10 09:23:56\', \'2023-05-10 09:23:56\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (:id_serveur:, :id_service:, :quantite:, :prix_unitaire:, :prix:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DevisController.php(83): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-10 09:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:23:56 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:23:59 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:02 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:26 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:27 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:28 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:29 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:30 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+ERROR - 2023-05-10 09:24:34 --> mysqli_sql_exception: Unknown table 'calculateur.tokens' in C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `tok...', 0)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `tok...')
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `tok...')
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `tok...')
+#4 C:\xampp\htdocs\ci4\project-root\app\Database\Migrations\2023-05-08-170802_CreateTokenTable.php(47): CodeIgniter\Database\Forge->dropTable('tokens')
+#5 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTokensTable->down()
+#6 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\ci4\project-root\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+INFO - 2023-05-10 09:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:40 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-10 09:24:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-10 09:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:49 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:51 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:52 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:59 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:24:59 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:25:02 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:25:04 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:25:12 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+ERROR - 2023-05-10 09:25:12 --> mysqli_sql_exception: Unknown column 'prix_unitaire' in 'field list' in C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sp...', 0)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4\project-root\app\Controllers\DevisController.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+#9 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+#10 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4\project-root\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-10 09:25:12 --> Unknown column 'prix_unitaire' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (5, 2, \'10\', \'10\', \'150\', \'2023-05-10 09:25:12\', \'2023-05-10 09:25:12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (5, 2, \'10\', \'10\', \'150\', \'2023-05-10 09:25:12\', \'2023-05-10 09:25:12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (5, 2, \'10\', \'10\', \'150\', \'2023-05-10 09:25:12\', \'2023-05-10 09:25:12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `specifications` (`id_serveur`, `id_service`, `quantite`, `prix_unitaire`, `prix`, `created_at`, `updated_at`) VALUES (:id_serveur:, :id_service:, :quantite:, :prix_unitaire:, :prix:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DevisController.php(83): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-10 09:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:25:13 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+ERROR - 2023-05-10 09:25:50 --> mysqli_sql_exception: Unknown table 'calculateur.tokens' in C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `tok...', 0)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `tok...')
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `tok...')
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `tok...')
+#4 C:\xampp\htdocs\ci4\project-root\app\Database\Migrations\2023-05-08-170802_CreateTokenTable.php(47): CodeIgniter\Database\Forge->dropTable('tokens')
+#5 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTokensTable->down()
+#6 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\ci4\project-root\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+INFO - 2023-05-10 09:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:29:57 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:29:59 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:30:05 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:30:06 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:30:13 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:30:14 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:30:16 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:30:18 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:30:35 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:30:36 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:31:09 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:31:11 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:31:19 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:33:01 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:33:12 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:34:08 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:34:11 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:34:21 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:34:22 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:34:29 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:34:29 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:34:31 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:34:33 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 09:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 09:34:45 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 10:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 10:41:37 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+CRITICAL - 2023-05-10 10:41:37 --> Undefined constant "App\Controllers\HTTP_UNPROCESSABLE_ENTITY"
+in APPPATH\Controllers\DevisController.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-10 11:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:06:45 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:06:58 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+CRITICAL - 2023-05-10 11:06:58 --> Undefined constant "App\Controllers\HTTP_UNPROCESSABLE_ENTITY"
+in APPPATH\Controllers\DevisController.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DevisController->insert_devis()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DevisController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-10 11:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:11:40 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:11:48 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:13:46 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:13:48 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:13:49 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:13:54 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:14:00 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:14:04 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:18:06 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:19:20 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:19:20 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:19:25 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:20:03 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:20:29 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:20:35 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:21:07 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:21:09 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:21:10 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:21:12 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:24:57 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:25:34 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:25:40 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:28:44 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:32:13 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:36:13 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:37:42 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:42:04 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:44:06 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:49:15 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:49:51 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:50:35 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:53:12 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:55:41 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:56:06 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:56:38 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:56:53 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:57:02 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:57:12 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:57:20 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:57:37 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:57:49 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:59:13 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 11:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 11:59:26 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:01:13 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:01:51 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:02:15 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:02:40 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:03:01 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:06:14 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:06:57 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:09:09 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:09:44 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:11:04 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:11:41 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:11:52 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:13:46 --> Array
+(
+    [user_id] => 1
+    [email] => johndoe@example.com
+    [password] => $2y$10$YvCQf6jrY.RPV3oApsVheuGICQynbSI2DyU37CYRlPe.sCuN5h8wu
+)
+
+INFO - 2023-05-10 12:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 12:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

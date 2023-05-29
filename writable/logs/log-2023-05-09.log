@@ -1,0 +1,606 @@
+CRITICAL - 2023-05-09 17:08:13 --> Attempt to read property "motdepass" on array
+in APPPATH\Controllers\UtilisateurController.php on line 36.
+ 1 APPPATH\Controllers\UtilisateurController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "motdepass" on array', 'C:\\xampp\\htdocs\\ci4\\project-root\\app\\Controllers\\UtilisateurController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UtilisateurController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UtilisateurController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+CRITICAL - 2023-05-09 19:03:10 --> Attempt to read property "id" on array
+in APPPATH\Controllers\UtilisateurController.php on line 47.
+ 1 APPPATH\Controllers\UtilisateurController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\ci4\\project-root\\app\\Controllers\\UtilisateurController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UtilisateurController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UtilisateurController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+CRITICAL - 2023-05-09 19:48:50 --> Class "App\Middlewares\AuthMiddleware" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('devis', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+CRITICAL - 2023-05-09 19:49:01 --> Class "App\Middlewares\AuthMiddleware" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+CRITICAL - 2023-05-09 19:50:25 --> Class "App\Middlewares\AuthMiddleware" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+CRITICAL - 2023-05-09 19:51:27 --> Interface "CodeIgniter\HTTP\MiddlewareInterface" not found
+in APPPATH\Middlewares\AuthMiddleware.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\project-root\\app\\Middlewares\\AuthMiddleware.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Middlewares\\AuthMiddleware')
+ 4 SYSTEMPATH\Filters\Filters.php(166): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Middlewares\\AuthMiddleware')
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+CRITICAL - 2023-05-09 19:52:51 --> Interface "CodeIgniter\HTTP\MiddlewareInterface" not found
+in APPPATH\Middlewares\AuthMiddleware.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\project-root\\app\\Middlewares\\AuthMiddleware.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Middlewares\\AuthMiddleware')
+ 4 SYSTEMPATH\Filters\Filters.php(166): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Middlewares\\AuthMiddleware')
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+CRITICAL - 2023-05-09 19:56:10 --> Interface "CodeIgniter\HTTP\MiddlewareInterface" not found
+in APPPATH\Middlewares\AuthMiddleware.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\project-root\\app\\Middlewares\\AuthMiddleware.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Middlewares\\AuthMiddleware')
+ 4 SYSTEMPATH\Filters\Filters.php(166): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Middlewares\\AuthMiddleware')
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+CRITICAL - 2023-05-09 20:02:41 --> Declaration of App\Middlewares\AuthMiddleware::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null) must be compatible with CodeIgniter\HTTP\MiddlewareInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null): ?CodeIgniter\HTTP\ResponseInterface
+in APPPATH\Middlewares\AuthMiddleware.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-09 20:02:57 --> "App\Middlewares\AuthMiddleware" must implement CodeIgniter\Filters\FilterInterface.
+in SYSTEMPATH\Filters\Filters.php on line 169.
+ 1 SYSTEMPATH\Filters\Filters.php(169): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('App\\Middlewares\\AuthMiddleware')
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+CRITICAL - 2023-05-09 20:03:37 --> Declaration of App\Controllers\DevisController::delete($id) must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\DevisController.php on line 81.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-05-09 21:27:53 --> This is an informational message.
+INFO - 2023-05-09 21:29:24 --> Before function triggered.
+INFO - 2023-05-09 21:29:37 --> Before function triggered.
+INFO - 2023-05-09 21:29:37 --> This is an informational message.
+INFO - 2023-05-09 21:30:11 --> Before function triggered.
+INFO - 2023-05-09 21:30:11 --> 
+INFO - 2023-05-09 21:30:50 --> Before function triggered.
+INFO - 2023-05-09 21:30:50 --> 
+INFO - 2023-05-09 21:39:17 --> Before function triggered.
+INFO - 2023-05-09 21:39:17 --> 
+INFO - 2023-05-09 21:39:19 --> Before function triggered.
+INFO - 2023-05-09 21:39:19 --> 
+INFO - 2023-05-09 21:41:50 --> Before function triggered.
+INFO - 2023-05-09 21:41:50 --> 
+INFO - 2023-05-09 21:42:14 --> Before function triggered.
+INFO - 2023-05-09 21:42:14 --> 
+INFO - 2023-05-09 21:42:27 --> Before function triggered.
+INFO - 2023-05-09 21:42:27 --> 
+INFO - 2023-05-09 21:42:28 --> Before function triggered.
+INFO - 2023-05-09 21:42:28 --> Bearer undefined
+INFO - 2023-05-09 21:42:36 --> Before function triggered.
+INFO - 2023-05-09 21:42:36 --> 
+INFO - 2023-05-09 21:42:36 --> Before function triggered.
+INFO - 2023-05-09 21:42:36 --> Bearer 91914e5e48b283afed35e784f9f99e69
+INFO - 2023-05-09 21:43:00 --> Before function triggered.
+INFO - 2023-05-09 21:43:00 --> 
+INFO - 2023-05-09 21:43:16 --> Before function triggered.
+INFO - 2023-05-09 21:43:16 --> 
+INFO - 2023-05-09 21:43:16 --> Before function triggered.
+INFO - 2023-05-09 21:43:16 --> Bearer dbff666742d7e24070e68bb03d063b07
+INFO - 2023-05-09 21:43:20 --> Before function triggered.
+INFO - 2023-05-09 21:43:20 --> 
+INFO - 2023-05-09 21:43:20 --> Before function triggered.
+INFO - 2023-05-09 21:43:20 --> Bearer f2fdafa0110c2aa6ddf73aef694302e1
+INFO - 2023-05-09 21:44:57 --> Before function triggered.
+INFO - 2023-05-09 21:44:57 --> 
+INFO - 2023-05-09 21:44:58 --> Before function triggered.
+INFO - 2023-05-09 21:44:58 --> Bearer 9569ef1c64a6b8ed276e016569d30efb
+INFO - 2023-05-09 21:45:04 --> Before function triggered.
+INFO - 2023-05-09 21:45:04 --> 
+INFO - 2023-05-09 21:45:05 --> Before function triggered.
+INFO - 2023-05-09 21:45:05 --> Bearer cec168eb4b9f0ab45aed1d0668ba4e97
+INFO - 2023-05-09 21:46:20 --> Before function triggered.
+INFO - 2023-05-09 21:46:20 --> 
+INFO - 2023-05-09 21:46:36 --> Before function triggered.
+INFO - 2023-05-09 21:46:36 --> 
+INFO - 2023-05-09 21:46:36 --> Before function triggered.
+INFO - 2023-05-09 21:46:36 --> Bearer 303c4f15ba1e89efc842d55fddac6e25
+INFO - 2023-05-09 21:48:44 --> Before function triggered.
+INFO - 2023-05-09 21:48:44 --> 
+INFO - 2023-05-09 21:49:15 --> Before function triggered.
+INFO - 2023-05-09 21:49:15 --> 
+INFO - 2023-05-09 21:49:25 --> Before function triggered.
+INFO - 2023-05-09 21:49:25 --> 
+INFO - 2023-05-09 21:50:51 --> Before function triggered.
+INFO - 2023-05-09 21:50:51 --> aff9a7a0e5dbeaf23eeb605977d87270
+INFO - 2023-05-09 21:58:02 --> Before function triggered.
+INFO - 2023-05-09 21:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 21:58:33 --> Before function triggered.
+INFO - 2023-05-09 21:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 21:58:33 --> 
+INFO - 2023-05-09 21:58:53 --> Before function triggered.
+INFO - 2023-05-09 21:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 21:58:53 --> 
+INFO - 2023-05-09 21:59:19 --> Before function triggered.
+INFO - 2023-05-09 21:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 21:59:19 --> 
+INFO - 2023-05-09 21:59:39 --> Before function triggered.
+INFO - 2023-05-09 21:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 21:59:39 --> 
+INFO - 2023-05-09 22:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:00:31 --> CodeIgniter\Session\Session Object
+(
+    [driver:protected] => CodeIgniter\Session\Handlers\FileHandler Object
+        (
+            [fingerprint:protected] => 60019df3ccbd6d82f9af0f0389e45f56
+            [lock:protected] => 
+            [cookiePrefix:protected] => 
+            [cookieDomain:protected] => 
+            [cookiePath:protected] => /
+            [cookieSecure:protected] => 
+            [cookieName:protected] => ci_session
+            [matchIP:protected] => 
+            [sessionID:protected] => q19p1cb0ersnt3dq2rncmm5jje213l8b
+            [savePath:protected] => C:\xampp\htdocs\ci4\project-root\writable\session
+            [ipAddress:protected] => ::1
+            [logger:protected] => CodeIgniter\Log\Logger Object
+                (
+                    [logLevels:protected] => Array
+                        (
+                            [emergency] => 1
+                            [alert] => 2
+                            [critical] => 3
+                            [error] => 4
+                            [warning] => 5
+                            [notice] => 6
+                            [info] => 7
+                            [debug] => 8
+                        )
+
+                    [loggableLevels:protected] => Array
+                        (
+                            [0] => emergency
+                            [1] => alert
+                            [2] => critical
+                            [3] => error
+                            [4] => warning
+                            [5] => notice
+                            [6] => info
+                            [7] => debug
+                            [8] => 
+                        )
+
+                    [filePermissions:protected] => 420
+                    [dateFormat:protected] => Y-m-d H:i:s
+                    [fileExt:protected] => 
+                    [handlers:protected] => Array
+                        (
+                            [CodeIgniter\Log\Handlers\FileHandler] => CodeIgniter\Log\Handlers\FileHandler Object
+                                (
+                                    [handles:protected] => Array
+                                        (
+                                            [0] => critical
+                                            [1] => alert
+                                            [2] => emergency
+                                            [3] => debug
+                                            [4] => error
+                                            [5] => info
+                                            [6] => notice
+                                            [7] => warning
+                                        )
+
+                                    [dateFormat:protected] => Y-m-d H:i:s
+                                    [path:protected] => C:\xampp\htdocs\ci4\project-root\writable\logs/
+                                    [fileExtension:protected] => log
+                                    [filePermissions:protected] => 420
+                                )
+
+                        )
+
+                    [handlerConfig:protected] => Array
+                        (
+                            [CodeIgniter\Log\Handlers\FileHandler] => Array
+                                (
+                                    [handles] => Array
+                                        (
+                                            [0] => critical
+                                            [1] => alert
+                                            [2] => emergency
+                                            [3] => debug
+                                            [4] => error
+                                            [5] => info
+                                            [6] => notice
+                                            [7] => warning
+                                        )
+
+                                    [fileExtension] => 
+                                    [filePermissions] => 420
+                                    [path] => 
+                                )
+
+                        )
+
+                    [logCache] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [level] => info
+                                    [msg] => Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+                                )
+
+                        )
+
+                    [cacheLogs:protected] => 1
+                )
+
+            [fileHandle:protected] => Resource id #127
+            [filePath:protected] => C:\xampp\htdocs\ci4\project-root\writable\session/ci_session
+            [fileNew:protected] => 
+            [sessionIDRegex:protected] => [0-9a-v]{32}
+        )
+
+    [sessionDriverName:protected] => CodeIgniter\Session\Handlers\FileHandler
+    [sessionCookieName:protected] => ci_session
+    [sessionExpiration:protected] => 7200
+    [sessionSavePath:protected] => C:\xampp\htdocs\ci4\project-root\writable\session
+    [sessionMatchIP:protected] => 
+    [sessionTimeToUpdate:protected] => 300
+    [sessionRegenerateDestroy:protected] => 
+    [cookie:protected] => CodeIgniter\Cookie\Cookie Object
+        (
+            [prefix:protected] => 
+            [name:protected] => ci_session
+            [value:protected] => 
+            [expires:protected] => 1683676831
+            [path:protected] => /
+            [domain:protected] => 
+            [secure:protected] => 
+            [httponly:protected] => 1
+            [samesite:protected] => Lax
+            [raw:protected] => 
+        )
+
+    [cookieDomain:protected] => 
+    [cookiePath:protected] => /
+    [cookieSecure:protected] => 
+    [cookieSameSite:protected] => Lax
+    [sidRegexp:protected] => [0-9a-v]{32}
+    [logger:protected] => CodeIgniter\Log\Logger Object
+        (
+            [logLevels:protected] => Array
+                (
+                    [emergency] => 1
+                    [alert] => 2
+                    [critical] => 3
+                    [error] => 4
+                    [warning] => 5
+                    [notice] => 6
+                    [info] => 7
+                    [debug] => 8
+                )
+
+            [loggableLevels:protected] => Array
+                (
+                    [0] => emergency
+                    [1] => alert
+                    [2] => critical
+                    [3] => error
+                    [4] => warning
+                    [5] => notice
+                    [6] => info
+                    [7] => debug
+                    [8] => 
+                )
+
+            [filePermissions:protected] => 420
+            [dateFormat:protected] => Y-m-d H:i:s
+            [fileExt:protected] => 
+            [handlers:protected] => Array
+                (
+                    [CodeIgniter\Log\Handlers\FileHandler] => CodeIgniter\Log\Handlers\FileHandler Object
+                        (
+                            [handles:protected] => Array
+                                (
+                                    [0] => critical
+                                    [1] => alert
+                                    [2] => emergency
+                                    [3] => debug
+                                    [4] => error
+                                    [5] => info
+                                    [6] => notice
+                                    [7] => warning
+                                )
+
+                            [dateFormat:protected] => Y-m-d H:i:s
+                            [path:protected] => C:\xampp\htdocs\ci4\project-root\writable\logs/
+                            [fileExtension:protected] => log
+                            [filePermissions:protected] => 420
+                        )
+
+                )
+
+            [handlerConfig:protected] => Array
+                (
+                    [CodeIgniter\Log\Handlers\FileHandler] => Array
+                        (
+                            [handles] => Array
+                                (
+                                    [0] => critical
+                                    [1] => alert
+                                    [2] => emergency
+                                    [3] => debug
+                                    [4] => error
+                                    [5] => info
+                                    [6] => notice
+                                    [7] => warning
+                                )
+
+                            [fileExtension] => 
+                            [filePermissions] => 420
+                            [path] => 
+                        )
+
+                )
+
+            [logCache] => Array
+                (
+                    [0] => Array
+                        (
+                            [level] => info
+                            [msg] => Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+                        )
+
+                )
+
+            [cacheLogs:protected] => 1
+        )
+
+)
+
+INFO - 2023-05-09 22:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-09 22:02:47 --> Undefined array key "token"
+in APPPATH\Middlewares\AuthMiddleware.php on line 19.
+ 1 APPPATH\Middlewares\AuthMiddleware.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\xampp\\htdocs\\ci4\\project-root\\app\\Middlewares\\AuthMiddleware.php', 19)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Middlewares\AuthMiddleware->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('devis', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-09 22:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:03:35 --> Array
+(
+    [__ci_last_regenerate] => 1683669814
+    [_ci_previous_url] => http://localhost:8080/index.php/devis
+)
+
+INFO - 2023-05-09 22:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:06:54 --> 
+INFO - 2023-05-09 22:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:10:49 --> 
+INFO - 2023-05-09 22:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-09 22:11:13 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-09 22:11:13 --> 
+INFO - 2023-05-09 22:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:11:37 --> 
+INFO - 2023-05-09 22:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:11:59 --> 
+INFO - 2023-05-09 22:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:16:14 --> 
+INFO - 2023-05-09 22:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-09 22:16:24 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-09 22:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:16:26 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:17:14 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:17:21 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:17:27 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:17:58 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:17:59 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:18:16 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:18:16 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:19:06 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:20:13 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:30:02 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:32:16 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:32:21 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:32:25 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:32:39 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:33:04 --> 2a1a6fdd3817c679f29f5963fa0be6b4
+INFO - 2023-05-09 22:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:38:36 --> 
+INFO - 2023-05-09 22:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:43:00 --> 
+INFO - 2023-05-09 22:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:43:19 --> 
+INFO - 2023-05-09 22:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-09 22:46:00 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-09 22:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:46:01 --> 
+INFO - 2023-05-09 22:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-09 22:46:22 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-09 22:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:46:22 --> 
+INFO - 2023-05-09 22:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:49:12 --> 
+INFO - 2023-05-09 22:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-09 22:49:17 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-09 22:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:49:17 --> 
+INFO - 2023-05-09 22:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-09 22:50:01 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-09 22:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:50:02 --> 
+INFO - 2023-05-09 22:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-09 22:51:02 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-09 22:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:51:02 --> 
+INFO - 2023-05-09 22:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-09 22:51:52 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-09 22:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:51:52 --> 
+INFO - 2023-05-09 22:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-09 22:52:31 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\project-root\\public\\index.php')
+INFO - 2023-05-09 22:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-09 22:53:18 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-09 22:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-09 22:53:21 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-09 22:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-09 22:53:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-09 22:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-09 22:53:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-09 22:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-09 22:53:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-09 22:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-09 22:53:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-09 22:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-09 22:53:23 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-09 22:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-09 22:53:41 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-09 22:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:53:41 --> a2a14ed963eda10838752c3ac6f61086
+INFO - 2023-05-09 22:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:53:43 --> a2a14ed963eda10838752c3ac6f61086
+INFO - 2023-05-09 22:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:53:45 --> a2a14ed963eda10838752c3ac6f61086
+INFO - 2023-05-09 22:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:54:35 --> 
+INFO - 2023-05-09 22:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:54:40 --> 
+INFO - 2023-05-09 22:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:55:06 --> 
+INFO - 2023-05-09 22:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:56:01 --> 
+INFO - 2023-05-09 22:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-09 22:56:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-05-09 22:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:56:29 --> 00c8bd278549ac99bc373675320b6efe
+INFO - 2023-05-09 22:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:56:31 --> 00c8bd278549ac99bc373675320b6efe
+INFO - 2023-05-09 22:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:57:11 --> 
+INFO - 2023-05-09 22:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-09 22:57:16 --> 00c8bd278549ac99bc373675320b6efe
