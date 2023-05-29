@@ -8,47 +8,54 @@
   <!--Bootstrap css and js cdn-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!--css Link-->
-  <link rel="stylesheet" href="../css/login.css" />
-
-
   <style>
-  .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
+  .log:hover {
+    background: #613db9
   }
   </style>
-
 </head>
 
-<body class="text-center">
+<body>
+  <!----------------------- Main Container -------------------------->
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <!----------------------- Login Container -------------------------->
+    <div class="row border rounded-5 p-0 bg-white shadow box-area" style="height:700px">
+      <!--------------------------- Left Box ----------------------------->
+      <div class="col-md-6 p-3 right-box m-auto p-5">
+        <div class="header-text mb-4">
+          <h2 class="fw-semibold ">Connexion</h2>
+          <p>Veuillez insérer vos informations.</p>
+        </div>
+        <div class="row align-items-center">
 
-  <main class="form-signin">
-
-    <img class="mb-4" src="/img/mtds_logo.png" alt="" width="72" height="72">
-    <h1 class="h3 mb-3 fw-normal">Se connecter</h1>
-
-    <div class="form-floating">
-      <input id="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email </label>
+          <div class="input-group mb-3">
+            <input id="email" type="text" class="form-control form-control-lg bg-light fs-6"
+              placeholder="Adresse e-mail">
+          </div>
+          <div class="input-group mb-1">
+            <input id="password" type="password" class="form-control form-control-lg bg-light fs-6"
+              placeholder="Mot de passe">
+          </div>
+          <div class="input-group mb-5 d-flex justify-content-between">
+            <div class="forgot">
+              <small><a href="#">Mot de pass oublier?</a></small>
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <button class="log btn btn-lg  w-100 fs-6" onclick="login()"
+              style="background:#7e56da;color:white">Login</button>
+          </div>
+        </div>
+      </div>
+      <!-------------------- ------ Right Box ---------------------------->
+      <div class="col-md-6 d-flex rounded p-0 justify-content-center align-items-center flex-column left-box"
+        style="background:#f3f4f8">
+        <div class="featured-image mb-3">
+          <img src="img/login.png" class="img-fluid" style="width: 500px;">
+        </div>
+      </div>
     </div>
-    <div class="form-floating mb-2">
-      <input id="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword ">Mot de pass</label>
-    </div>
-    <button class="w-100 btn btn-lg btn-secondary mt-5" type="submit" onclick="login()">Login</button>
-
-  </main>
+  </div>
   <script>
   async function login() {
     email = document.getElementById('email');
