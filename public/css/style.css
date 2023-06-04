@@ -11,12 +11,9 @@
 
 
 .header {
-  background-color: #7e56da;
+  background-color: #040f16;
 }
-.footer{
-	background-color: #4a4453;
-	color:white
-}
+
 
 /*
 ---------------------------------------------------------------------------------
@@ -102,6 +99,7 @@ table.table-fit tbody td, table.table-fit tfoot td {
 .modal-confirm {		
 	color: #434e65;
 	width: 525px;
+	height:600px !important;
 }
 .modal-confirm .modal-content {
 	padding: 20px;

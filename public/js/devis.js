@@ -25,6 +25,23 @@ function extractNomById(jsonData, id) {
   }
   return null; // Return null if the id is not found
 }
+function extractDescById(jsonData, id) {
+  for (let i = 0; i < jsonData.length; i++) {
+    if (jsonData[i].id === id) {
+      return jsonData[i].desc;
+    }
+  }
+  return null; // Return null if the id is not found
+}
+function extractDelById(jsonData, id) {
+  for (let i = 0; i < jsonData.length; i++) {
+    if (jsonData[i].id === id) {
+      console.log(jsonData[i])
+      return jsonData[i].deleted_at;
+    }
+  }
+  return null; // Return null if the id is not found
+}
 
 function checkTotal(serverid) {
   let divElem = document.getElementById(`server${serverid}`);
@@ -53,32 +70,50 @@ function check() {
 
 function addServer() {
   let html = `
-    <div id="server${counter}" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-3" style="opacity: 0;">
-      <div class="panel panel-default fadeInDown border panel-primary rounded px-2 py-4 pt-2">
-        <div class="panel-heading text-end"><button id="${counter}" class="btn btn-danger mt-0 mb-2" onclick="deleteServer(this)" type="button" ><i class="bi bi-x"></i></button></div>
-          <table class="table-responsive overflow-hidden">
+    <div id="server${counter}" class=" px-1 col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-3" style="opacity: 0;">
+      <div class="card fadeInDown panel-primary text-">
+        <div class="card-header bg-dark text-light text-start pe-4">
+        <div class="row">
+          <strong id="title" class="col-11 align-bottom">Serveur ${cnter}</strong>
+          <button id="${counter}" class="col-1 btn btn-light " onclick="deleteServer(this)" type="button" ><i class="bi bi-x-lg"></i></button>
+        </div></div>
+
+        <div class="card-body">
+        <table class="table-responsive-sm ">
           `
   for (const x of services) {
     const idqte = `${counter}qte${x['id']}`;
     const idtotal = `${counter}total${x['id']}`;
     const idprix = `${counter}prix${x['id']}`;
     const prix = x["prix_unitaire"]
-
-    html += `
+    if (x['desc'] == "") {
+        html += `
     <tr class="text-start">
-      <td scope="col" class="col-4 m-0 p-0 text-nowrap"><label class="form-control pe-0 m-0 overflow-hidden" style="border-radius:10px 0 0 10px !important">${x['nom']}</label></td>
-      <td scope="col" class="col-2 m-0 p-0 text-nowrap"><input id=${idqte} class="form-control m-0 overflow-hidden" style="border-radius:0 !important" type="number" value=0 onblur="updateTotal(${counter},${x['id']})" onclick="updateTotal(${counter},${x['id']})"></td>
-      <td scope="col" class="col-3 m-0 p-0 text-nowrap"><input id=${idprix} class="form-control m-0 overflow-hidden" style="border-radius:0 !important" type="decimal" value=${prix} onblur="updateTotal(${counter},${x['id']})" ></td>
-      <td scope="col" class="col-3 m-0 p-0 text-nowrap"><input id=${idtotal} class="form-control m-0 overflow-hidden" style="border-radius:0 10px 10px 0 !important" type="decimal" onblur="checkTotal(${counter})" value=0></td>
+      <td scope="col" class="col-lg-6 col-6 m-0 p-0 "><label class="pe-0 m-0 overflow-hidden border-none" style="">${x['nom']}</label></td>
+      <td scope="col" class="col-lg-2 col-1 m-0 p-0 "><input  id=${idqte} class="form-control m-0 overflow-hidden " style="border-radius:0" type="number" value=0 onblur="updateTotal(${counter},${x['id']})" onclick="updateTotal(${counter},${x['id']})"></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0 "><input  id=${idprix} class="form-control m-0 overflow-hidden " style="border-radius:0" type="decimal" value=${prix} onblur="updateTotal(${counter},${x['id']})" ></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0 "><input  id=${idtotal} class="form-control m-0 overflow-hidden " style="border-radius:0" type="decimal" onblur="checkTotal(${counter})" value=0></td>
     </tr>
     `;
+    } else {
+      html += `
+    <tr class="text-start">
+      <td scope="col" class="col-lg-6 col-6 m-0 p-0"><label class="pe-0 m-0 border-none" style="border-radius:10px 0 0 10px !important">${x['nom']}(${x['desc']})</label></td>
+      <td scope="col" class="col-lg-2 col-1 m-0 p-0 "><input id=${idqte} class="form-control m-0 overflow-hidden border-none" style="border-radius:0" type="number" value=0 onblur="updateTotal(${counter},${x['id']})" onclick="updateTotal(${counter},${x['id']})"></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0 "><input id=${idprix} class="form-control m-0 overflow-hidden border-none" style="border-radius:0" type="decimal" value=${prix} onblur="updateTotal(${counter},${x['id']})" ></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0 "><input id=${idtotal} class="form-control m-0 overflow-hidden border-none" style="border-radius:0" type="decimal" onblur="checkTotal(${counter})" value=0></td>
+      </tr>
+    `;
+    }
+    
   }
   html += `
     </table>
     <div class="panel d-flex justify-content-between pt-3">
-      <div class="col-2 text-start fw-bold pt-1">Total </div>
-      <div class="col-8"><input id="total${counter}" class="ps-1 fw-normal form-control" type="decimal" onblur="check()" value="0"></div>
-      <div class="col-2 fw-normal text-center pt-1">MAD</div>
+      <div class="col-6 text-end fw-bold pt-1 me-2 pe-4">Total :</div>
+      <div class="col-4"><input id="total${counter}" class="ps-2 fw-normal form-control ms-4" type="decimal" onblur="check()" value="0"></div>
+      <div class="col-2 fw-normal text-center pt-1 pe-3">mad</div>
+    </div>
     </div>
   </div>
   </div>`;
@@ -95,32 +130,69 @@ function addServer() {
     duration: 500,
     fill: 'forwards'
   });
-
+  cnter++;
   counter++;
 }
 
 function addServer_wthstuff(data) {
   let vari = data.serveur['prix']
   let html = `
-    <div id="server${counter}" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-3" style="opacity: 0;">
-      <div class="panel panel-default fadeInDown border panel-primary rounded px-2 py-4 pt-2">
-        <div class="panel-heading text-end"><button id="${counter}" class="btn btn-danger mt-0 mb-2" onclick="deleteServer(this)" type="button" ><i class="bi bi-x"></i></button></div>
-          <table class="table-responsive overflow-hidden">
+    <div id="server${counter}" class=" px-1  col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-3" style="opacity: 0;">
+      <div class="card fadeInDown panel-primary text-">
+        <div class="card-header bg-dark text-light text-start pe-4">
+        <div class="row">
+          <strong id="title" class="col-11 align-bottom">Serveur ${cnter}</strong>
+          <button id="${counter}" class="col-1 btn btn-light " onclick="deleteServer(this)" type="button" ><i class="bi bi-x-lg"></i></button>
+        </div></div>
+
+        <div class="card-body"><table class="table-responsive-sm ">
           `
   for (const x of data.specifications) {
     const idqte = `${counter}qte${x['id_service']}`;
     const idtotal = `${counter}total${x['id_service']}`;
     const idprix = `${counter}prix${x['id_service']}`;
     const prix = x["prix_unitaire"]
-
-    html += `
+    if (extractDescById(services_del, x['id_service']) == "") {
+      if (extractDelById(services_del, x['id_service'])== null) {
+        html += `
     <tr class="text-start">
-      <td scope="col" class="col-4 m-0 p-0 text-nowrap"><label class="form-control pe-0 m-0 overflow-hidden" style="border-radius:10px 0 0 10px !important">${extractNomById(services_del, x['id_service'])}</label></td>
-      <td scope="col" class="col-2 m-0 p-0 text-nowrap"><input id=${idqte} class="form-control m-0 overflow-hidden" style="border-radius:0 !important" type="number" value=${x['quantite']} onblur="updateTotal(${counter},${x['id_service']})" onclick="updateTotal(${counter},${x['id_service']})"></td>
-      <td scope="col" class="col-3 m-0 p-0 text-nowrap"><input id=${idprix} class="form-control m-0 overflow-hidden" style="border-radius:0 !important" type="decimal" value=${x["prix_unitaire"]} onblur="updateTotal(${counter},${x['id_service']})" ></td>
-      <td scope="col" class="col-3 m-0 p-0 text-nowrap"><input id=${idtotal} class="form-control m-0 overflow-hidden" style="border-radius:0 10px 10px 0 !important" type="decimal" onblur="checkTotal(${counter})" value=${x['prix']}></td>
+      <td scope="col" class="col-lg-6 col-6 m-0 p-0 "><label class="pe-0 m-0 border-none" >${extractNomById(services_del, x['id_service'])}</label></td>
+      <td scope="col" class="col-lg-2 col-1 m-0 p-0 "><input  id=${idqte} class="form-control m-0 overflow-hidden border-none"  type="number" value="${x['quantite']}" onblur="updateTotal(${counter},${x['id_service']})" onclick="updateTotal(${counter},${x['id_service']})"></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0 "><input  id=${idprix} class="form-control m-0 overflow-hidden border-none"  type="decimal" value="${x['prix_unitaire']}" onblur="updateTotal(${counter},${x['id_service']})" ></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0 "><input  id=${idtotal} class="form-control m-0 overflow-hidden border-none"  type="decimal" onblur="checkTotal(${counter})" value="${x['prix']}"></td>
     </tr>
     `;
+      } else {
+         html += `
+    <tr class="text-start">
+      <td scope="col" class="col-lg-6 col-6 m-0 p-0  "><label class="pe-0 m-0 border-none text-decoration-line-through" >${extractNomById(services_del, x['id_service'])}</label></td>
+      <td scope="col" class="col-lg-2 col-1 m-0 p-0  "><input  id=${idqte} class="form-control m-0 overflow-hidden border-none"  type="number" value="${x['quantite']}" onblur="updateTotal(${counter},${x['id_service']})" onclick="updateTotal(${counter},${x['id_service']})"></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0  "><input  id=${idprix} class="form-control m-0 overflow-hidden border-none"  type="decimal" value="${x['prix_unitaire']}" onblur="updateTotal(${counter},${x['id_service']})" ></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0  "><input  id=${idtotal} class="form-control m-0 overflow-hidden border-none"  type="decimal" onblur="checkTotal(${counter})" value="${x['prix']}"></td>
+    </tr>
+    `;
+      }
+    } else {
+      if (extractDelById(services_del, x['id_service']) == null) {
+        html += `
+    <tr class="text-start">
+      <td scope="col" class="col-lg-6 col-6 m-0 p-0 "><label class="pe-0 m-0 border-none" >${extractNomById(services_del, x['id_service'])}(${extractDescById(services_del, x['id_service'])})</label></td>
+      <td scope="col" class="col-lg-2 col-1 m-0 p-0 text-nowrap"><input id=${idqte} class="form-control m-0 overflow-hidden border-none"  type="number" value="${x['quantite']}" onblur="updateTotal(${counter},${x['id_service']})" onclick="updateTotal(${counter},${x['id_service']})"></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0 text-nowrap"><input id=${idprix} class="form-control m-0 overflow-hidden border-none"  type="decimal" value="${x['prix_unitaire']}" onblur="updateTotal(${counter},${x['id_service']})" ></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0 text-nowrap"><input id=${idtotal} class="form-control m-0 overflow-hidden border-none"  type="decimal" onblur="checkTotal(${counter})" value="${x['prix']}"></td>
+    </tr>
+    `;
+      } else {
+        html += `
+    <tr class="text-start">
+      <td scope="col" class="col-lg-6 col-6 m-0 p-0 "><label class="pe-0 m-0 border-none text-decoration-line-through" >${extractNomById(services_del, x['id_service'])}(${extractDescById(services_del, x['id_service'])})</label></td>
+      <td scope="col" class="col-lg-2 col-1 m-0 p-0 text-nowrap"><input id=${idqte} class="form-control m-0 overflow-hidden border-none"  type="number" value="${x['quantite']}" onblur="updateTotal(${counter},${x['id_service']})" onclick="updateTotal(${counter},${x['id_service']})"></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0 text-nowrap"><input id=${idprix} class="form-control m-0 overflow-hidden border-none"  type="decimal" value="${x['prix_unitaire']}" onblur="updateTotal(${counter},${x['id_service']})" ></td>
+      <td scope="col" class="col-lg-2 col-2 m-0 p-0 text-nowrap"><input id=${idtotal} class="form-control m-0 overflow-hidden border-none"  type="decimal" onblur="checkTotal(${counter})" value="${x['prix']}"></td>
+    </tr>
+    `;
+      }
+    }
   }
   html += `
     </table>
@@ -146,6 +218,7 @@ function addServer_wthstuff(data) {
   });
 
   counter++;
+  cnter++
 }
 
 function deleteServer(e) {
@@ -241,3 +314,4 @@ function extractDevis() {
     "desc": description.value,
   }
 }
+

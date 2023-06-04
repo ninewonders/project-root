@@ -9,49 +9,43 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   <style>
-  .log:hover {
-    background: #613db9
+  .body {
+    height: 100% !important
+  }
+
+  .box {
+    height: 70vh;
+    width: 39%;
+    margin: auto
   }
   </style>
 </head>
 
-<body>
+<body class="container-flex bg-light d-flex justify-content-center align-items-center min-vh-100">
   <!----------------------- Main Container -------------------------->
-  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+  <div class="box container d-flex border rounded-4 shadow bg-white justify-content-center align-items-center">
     <!----------------------- Login Container -------------------------->
-    <div class="row border rounded p-0 bg-white shadow box-area" style="height:700px">
-      <!--------------------------- Left Box ----------------------------->
-      <div class="col-md-6 p-3 right-box m-auto p-5">
-        <div class="header-text mb-4">
-          <h2 class="fw-semibold ">Connexion</h2>
-          <p>Veuillez insérer vos informations.</p>
-        </div>
-        <div class="row align-items-center">
-
-          <div class="input-group mb-3">
-            <input id="email" type="text" class="form-control form-control-lg bg-light fs-6"
-              placeholder="Adresse e-mail">
-          </div>
-          <div class="input-group mb-1">
-            <input id="password" type="password" class="form-control form-control-lg bg-light fs-6"
-              placeholder="Mot de passe">
-          </div>
-          <div class="input-group mb-5 d-flex justify-content-between">
-            <div class="forgot">
-              <small><a href="#">Mot de pass oublier?</a></small>
-            </div>
-          </div>
-          <div class="input-group mb-3">
-            <button class="log btn btn-lg  w-100 fs-6" onclick="login()"
-              style="background:#7e56da;color:white">Login</button>
-          </div>
-        </div>
+    <div class="px-5">
+      <div class="header-text mb-4">
+        <h2 class="fw-semibold ">Connexion</h2>
+        <p>Veuillez insérer vos informations.</p>
       </div>
-      <!-------------------- ------ Right Box ---------------------------->
-      <div class="col-md-6 d-flex rounded p-0 justify-content-center align-items-center flex-column left-box"
-        style="background:#f3f4f8">
-        <div class="featured-image mb-3">
-          <img src="img/login.png" class="img-fluid" style="width: 500px;">
+      <div class="row align-items-center">
+
+        <div class="input-group mb-3">
+          <input id="email" type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Adresse e-mail">
+        </div>
+        <div class="input-group mb-1">
+          <input id="password" type="password" class="form-control form-control-lg bg-light fs-6"
+            placeholder="Mot de passe">
+        </div>
+        <div class="input-group mb-5 d-flex justify-content-between">
+          <div class="forgot">
+            <small><a href="#">Mot de pass oublier?</a></small>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <button class="log btn btn-lg btn-dark   w-100 fs-6" onclick="login()">Login</button>
         </div>
       </div>
     </div>
@@ -73,7 +67,7 @@
       .then(response => response.json())
       .then(data => {
         if (data.message == 'Authentication successful') {
-          window.location.href = '/home';
+          window.location.href = '/profile';
         }
       })
       .catch(error => {

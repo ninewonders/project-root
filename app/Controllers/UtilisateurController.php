@@ -48,6 +48,7 @@ class UtilisateurController extends BaseController
         
         session()->set('user', [
             'user_id' => $user['id'],
+            'name' => $user['nom'],
             'email' => $user['email'],
             'password' => $user['motdepass']
         ]);
@@ -55,5 +56,9 @@ class UtilisateurController extends BaseController
         return $this->response->setJSON([
             'message' => 'Authentication successful',
         ]);
+    }
+
+    public function profile(){
+        return view('user/profile');
     }
 }
