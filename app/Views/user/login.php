@@ -60,14 +60,15 @@
       'password': password.value
     }
 
-    fetch('login', {
+    fetch('/login', {
         method: 'POST',
+        mode: 'no-cors',
         body: JSON.stringify(insertData)
       })
       .then(response => response.json())
       .then(data => {
         if (data.message == 'Authentication successful') {
-          window.location.href = '/profile';
+          window.location.href = '/devis';
         }
       })
       .catch(error => {

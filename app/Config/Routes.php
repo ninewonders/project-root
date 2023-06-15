@@ -31,6 +31,10 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/','UtilisateurController::index');
 $routes->get('/profile', 'UtilisateurController::profile');
+$routes->post('/util/insert', 'UtilisateurController::insert_util');
+$routes->put('/util', 'UtilisateurController::store');
+$routes->delete('/util/(:num)','UtilisateurController::delete/$1');
+$routes->post('/util/update','UtilisateurController::update');
 //user routes
 $routes->post('/login','UtilisateurController::login');
 //devis routes

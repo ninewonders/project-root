@@ -31,15 +31,10 @@ class ServiceController extends BaseController
         ]);
     }
 
-
     public function insert_service(){
         $data = $this->request->getJSON();
-        $this->response->setJSON([
-            'message' => $data
-        ]);
-        // Create a new Devis model instance and insert the data
         $this->service->insert($data);
-        $this->response->setJSON([
+        return $this->response->setJSON([
             'message' => 'Service Created Successfully'
         ]);
     }

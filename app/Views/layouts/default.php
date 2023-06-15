@@ -60,7 +60,7 @@ $user = session()->get('user')?>
     <section class="header py-4 text-center"></section>
     <nav class="navbar navbar-expand-lg py-2 px-2 navbar-light shadow-sm">
       <div class="container-fluid mx-5">
-        <a class="navbar-brand fs-4" href="/home">
+        <a class="navbar-brand fs-4" href="/profile">
           <strong class="mb-2 font-weight-bold">Calculateur prix</strong>
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
@@ -85,7 +85,7 @@ $user = session()->get('user')?>
                   <i class="me-2 fas fa-user"></i>
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="/home"><i class="me-2 fas fa-user"></i><?= $user['name'] ?></a>
+                  <a class="dropdown-item" href="/profile"><i class="me-2 fas fa-user"></i><?= $user['name'] ?></a>
                   <div class="dropdown-divider mt-0"></div>
                   <a class="dropdown-item" href="/"><i class="bi bi-box-arrow-left me-2"></i>Deconnexion</a>
                 </div>
@@ -138,7 +138,7 @@ $user = session()->get('user')?>
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-3 mx-auto mb-4 ">
               <!-- Links -->
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-              <p><i class="fas fa-home me-3"></i> Rabat, Kingdom of Morocco</p>
+              <p><i class="fas fa-home me-3"></i> Rabat, Maroc</p>
               <p>
                 <i class="fas fa-envelope me-3"></i>
                 info@mtds.com

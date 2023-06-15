@@ -76,39 +76,32 @@ class DevisController extends BaseController
         // Get the data from the JSON object
         $devisData = $data->devisData;
         $serverData = $data->serverData;
-        // Create a new Devis model instance and insert the data
-
-        if($this->devis->where('nom',$devisData->nom)->first()){
-            return $this->response->setJson([
-                'msg' => 'nom deja existe!'
-            ]);
-        }
         
+        // Create a new Devis model instance and insert the data
         $this->devis->insert($devisData);
 
         // Loop through the server data and insert it for each server
         foreach ($serverData as $server) {
             // Create a new Server model instance and insert the data
-            $serverModel = new ServeurModel();
+
             $data = [
                 'id_devis' => $this->devis->getInsertID(), 
                 'prix' => $server->prix
             ];
-            $serverModel->insert($data);
+            $this->serveur->insert($data);
 
             // Loop through the specs data and insert it for each spec
             foreach ($server->specs as $spec) {
                 // Create a new Spec model instance and insert the data
-                $specModel = new SpecificationModel();
                 $data = [
-                    'id_serveur' => $serverModel->getInsertID(),
+                    'id_serveur' => $this->serveur->getInsertID(),
                     'id_service' => $spec->id_service, 
                     'quantite' => $spec->quantite, 
                     'prix_unitaire' => $spec->prix_unitaire,
                     'prix' => $spec->prix, 
                 
                 ];
-                $specModel->insert($data);
+                $this->spec->insert($data);
             }
         }
         return $this->response->setJSON([

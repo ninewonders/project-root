@@ -131,13 +131,16 @@ function save() {
         "devisData": data,
         "serverData": serverData
       };
+
       // Send a single fetch request to insert all the data
       fetch('insert', {
           method: 'POST',
+          mode: 'no-cors',
           body: JSON.stringify(insertData)
         })
         .then(response => response.json())
         .then(data => {
+          console.log(data)
           if (data.msg == 'Devis Created Successfully') {
             $('#myModal').modal('show');
             setTimeout(2000);

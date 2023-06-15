@@ -211,7 +211,6 @@ function saveedit() {
     })
     .then(response => response)
     .then(data => {
-      console.log(data)
       window.location.href = '<?= base_url('/service') ?>';
     })
     .catch(error => {

@@ -2,23 +2,22 @@
 $user = session()->get('user')?>
 <?= $this->extend('/layouts/default') ?>
 
-
-
 <?= $this->section('content') ?>
-<div class="home container-flex pt-0 pb-0 ">
+<div class="home container-flex pt-0 pb-0 " style="min-height:60vh">
   <section class="section home-5-bg" id="home">
     <div class="card row my-4 mx-auto  bg-white border border-dark border-1 " style="width:95%">
-      <div class="card-header bg-dark text-light">
-        <strong class="row ps-2">Profile :</strong>
+      <div class="card-header bg-dark text-light d-flex">
+        <strong class="ps-2 col-11 ">Profile :</strong>
+        <div class="col-1 text-end">
+          <button class="btn btn-outline-light" onclick='up(<?= json_encode($user) ?>)'><i
+              class="bi bi-pencil-square"></i></button>
+        </div>
       </div>
       <div class="card-body m-3 ">
         <div class="mb-3 row">
-          <label for="usernom" class="col-sm-2 col-form-label">Nom et prenom :</label>
+          <label for="usernom" class="col-sm-2 col-form-label">Nom et prénom :</label>
           <div class="col-sm-9">
             <input type="text" class="form-control ps-1" onblur="" readonly value="<?=$user['name']?>">
-          </div>
-          <div class="col-sm-1">
-            <button class="btn btn-outline-dark" onclick=""><i class="bi bi-pencil-square"></i></button>
           </div>
         </div>
         <div class="mb-3 row">
@@ -26,20 +25,6 @@ $user = session()->get('user')?>
           <div class="col-sm-9">
             <input id="usermail" type="text" class="form-control ps-1" onblur="saveusermail()" disabled
               value="<?=$user['email']?>">
-          </div>
-          <div class="col-sm-1">
-            <button class="btn btn-outline-dark" onclick="activateusermail()"><i
-                class="bi bi-pencil-square"></i></button>
-          </div>
-        </div>
-        <div class="mb-3 row">
-          <label for="userpassword" class="col-sm-2 col-form-label">Mot de pass :</label>
-          <div class="col-sm-9">
-            <input id="userpassword" type="text" class="form-control ps-1" onblur="" readonly
-              value="<?=$user['password']?>">
-          </div>
-          <div class="col-sm-1">
-            <button class="btn btn-outline-dark" onclick=""><i class="bi bi-pencil-square"></i></button>
           </div>
         </div>
       </div>
@@ -59,72 +44,28 @@ $user = session()->get('user')?>
               <tr scope="row">
                 <th scope="col" class="col-lg-2 ps-4 text-start">Nom et prénom</th>
                 <th scope="col" class="col-lg-3 ps-4 text-start">E-mail</th>
-                <th scope="col" class="col-lg-2 ps-4">Mot de pass</th>
                 <th scope="col" class="col-lg-1"></th>
               </tr>
             </thead>
             <tbody class="bg-white">
+              <?php foreach($utilisateurs as $utilisateur){?>
               <tr scope="row">
-                <td scope="col" class="text-start" type="text" value=></td>
-                <td scope="col" class="text-start"></td>
-                <td scope="col"></td>
+                <td scope="col" class="text-start" type="text" value=><?=$utilisateur['nom']?></td>
+                <td scope="col" class="text-start"><?=$utilisateur['email']?></td>
                 <td scope="col" class="text-center">
                   <div class="btn-group btn-group-md" role="group" aria-label="a group of buttons">
-                    <a href="#" class="btn btn-outline-dark">
+                    <button class="btn btn-outline-dark" onclick='edit(<?=json_encode($utilisateur)?>)'>
                       <i class="bi bi-pencil-square"></i>
-                    </a>
-                    <button class="btn btn-dark" onclick="">
+                    </button>
+                    <button class="btn btn-dark" onclick="del(<?=$utilisateur['id']?>)">
                       <i class="bi bi-trash"></i>
                     </button>
                   </div>
                 </td>
               </tr>
-              <tr scope="row">
-                <td scope="col" class="text-start" type="text" value=></td>
-                <td scope="col" class="text-start"></td>
-                <td scope="col"></td>
-                <td scope="col" class="text-center">
-                  <div class="btn-group btn-group-md" role="group" aria-label="a group of buttons">
-                    <a href="#" class="btn btn-outline-dark">
-                      <i class="bi bi-pencil-square"></i>
-                    </a>
-                    <button class="btn btn-dark" onclick="">
-                      <i class="bi bi-trash"></i>
-                    </button>
-                  </div>
-                </td>
-              </tr>
-              <tr scope="row">
-                <td scope="col" class="text-start" type="text" value=></td>
-                <td scope="col" class="text-start"></td>
-                <td scope="col"></td>
-                <td scope="col" class="text-center">
-                  <div class="btn-group btn-group-md" role="group" aria-label="a group of buttons">
-                    <a href="#" class="btn btn-outline-dark">
-                      <i class="bi bi-pencil-square"></i>
-                    </a>
-                    <button class="btn btn-dark" onclick="">
-                      <i class="bi bi-trash"></i>
-                    </button>
-                  </div>
-                </td>
-              </tr>
-              <tr scope="row">
-                <td scope="col" class="text-start" type="text" value=></td>
-                <td scope="col" class="text-start"></td>
-                <td scope="col"></td>
-                <td scope="col" class="text-center">
-                  <div class="btn-group btn-group-md" role="group" aria-label="a group of buttons">
-                    <a href="#" class="btn btn-outline-dark">
-                      <i class="bi bi-pencil-square"></i>
-                    </a>
-                    <button class="btn btn-dark" onclick="">
-                      <i class="bi bi-trash"></i>
-                    </button>
-                  </div>
-                </td>
-              </tr>
-
+              <?php
+            }
+            ?>
             </tbody>
           </table>
         </div>
@@ -138,21 +79,22 @@ $user = session()->get('user')?>
                 </div>
               </div>
               <div class="mb-3 row">
+                <label for="usermail" class="col-sm-12 col-form-label ">E-mail :</label>
+                <div class="col-sm-12">
+                  <input id="email" type="text" class="form-control ps-1" value="">
+                </div>
+              </div>
+              <div class="mb-3 row">
                 <label for="addprix" class="col-sm-12 col-form-label ">Mot de pass :</label>
                 <div class="col-sm-12 ">
                   <input type="decimal" class="form-control ps-1" id="password" value="">
                 </div>
               </div>
-              <div class="mb-3 row">
-                <label for="usermail" class="col-sm-12 col-form-label ">E-mail :</label>
-                <div class="col-sm-12">
-                  <input id="mail" type="text" class="form-control ps-1" id="adddesc" value="">
-                </div>
-              </div>
+              <input type="text" class="form-control ps-1 m-0 p-0 invisible" id="id" value="">
             </div>
             <div class="container text-end">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
-              <button type="button" class="btn btn-primary" onclick="saveadd()">Sauvegarder</button>
+              <button type="button" class="btn btn-secondary" onclick="cancel()">Annuler</button>
+              <button type="button" class="btn btn-primary" onclick="add()">Sauvegarder</button>
             </div>
           </div>
         </div>
@@ -162,98 +104,194 @@ $user = session()->get('user')?>
     }
     ?>
     <!-- ======= App Features Section ======= -->
-    <div class="row my-4 mx-auto p-1  bg-white" style="width:95%">
-      <div class="row">
-        <div class="col-12 mt-3 mb-1">
-          <h5 class="">Un aperçu :</h5>
+
+  </section>
+
+  <!--Update Modal -->
+  <div class="modal fade" id="editModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-dark text-light">
+          <h5 class="modal-title" id="staticBackdropLabel">Modifier</h5>
+          <button type="button" class="btn-close btn-close-white " data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-      </div>
-      <div class="row mx-3">
-        <div class="col-xl-6 col-md-12 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <div class="d-flex justify-content-between p-md-1">
-                <div class="d-flex flex-row">
-                  <div class="align-self-center">
-                    <i class="bi bi-database-fill-gear text-info fa-3x me-4"></i>
-                  </div>
-                  <div>
-                    <h4>Total de serveurs</h4>
-                    <p class="mb-0">Le nombre de serveurs vendus</p>
-                  </div>
-                </div>
-                <div class="align-self-center">
-                  <h2 class="h1 mb-0">10</h2>
-                </div>
-              </div>
+        <div class="modal-body">
+          <div class="mb-1 row">
+            <label for="editid" class="col-sm-12 col-form-label  ">Nom et prénom :</label>
+            <div class="col-sm-12">
+              <input type="text" class="form-control ps-1" id="editnom" value="" readonly>
+            </div>
+          </div>
+          <div class="mb-1 row">
+            <label for="editmail" class="col-sm-12 col-form-label ">E-Mail :</label>
+            <div class="col-sm-12">
+              <input type="text" class="form-control ps-1" id="editmail" value="">
+            </div>
+          </div>
+          <div class="mb-1 row">
+            <label for="editdesc" class="col-sm-12 col-form-label ">Mot de pass ancient :</label>
+            <div class="col-sm-12">
+              <input type="text" class="form-control ps-1" id="editopass" value="">
+            </div>
+          </div>
+          <div class="mb-1 row">
+            <label for="editdesc" class="col-sm-12 col-form-label ">Nouveau mot de pass :</label>
+            <div class="col-sm-12">
+              <input type="text" class="form-control ps-1" id="editnpass" value="">
             </div>
           </div>
         </div>
-        <div class="col-xl-6 col-md-12 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <div class="d-flex justify-content-between p-md-1">
-                <div class="d-flex flex-row">
-                  <div class="align-self-center">
-                    <i class="bi bi-cloud-fill text-warning fa-3x me-4"></i>
-                  </div>
-                  <div>
-                    <h4>Total des services</h4>
-                    <p class="mb-0">Le nombre total de services disponibles</p>
-                  </div>
-                </div>
-                <div class="align-self-center">
-                  <h2 class="h1 mb-0">7</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xl-6 offset-xl-3 col-md-12 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <div class="d-flex justify-content-between p-md-1">
-                <div class="d-flex flex-row">
-                  <div class="align-self-center">
-                    <h2 class="h1 mb-0 me-4">5.000MAD</h2>
-                  </div>
-                  <div>
-                    <h4>Ventes totales</h4>
-                    <p class="mb-0">Le montant total des ventes</p>
-                  </div>
-                </div>
-                <div class="align-self-center">
-                  <i class="bi bi-wallet2 text-danger fa-3x"></i>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+          <button type="button" class="btn btn-success" onclick="saveup()">Sauvegarder</button>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </div>
-<!-- End App Features Section -->
 </div>
 </section>
 <script>
-usermailField = document.getElementById('usermail');
-usernameField = document.getElementById('usermail');
-userpasswordField = documen.getElementById('userpassword');
+let editBool = false;
 
-function activateusermail() {
-  usermailField.disabled = false;
-  usermailField.focus();
+function up(user) {
+  let editModal = document.getElementById('editModal');
+  let modal = new bootstrap.Modal(editModal);
+  modal.show();
+
+
+  let nom = document.getElementById('editnom');
+  let mail = document.getElementById('editmail');
+  let opass = document.getElementById('editopass');
+  let npass = document.getElementById('editnpass');
+
+  nom.value = user.name;
+  mail.value = user.email;
+  opass.value = "";
+  npass.value = "";
 }
 
-function saveusermail() {
-  if (usermailField.value.trim() == "") {
-    usermailField.value = "<?= $user['email'] ?>"
-  } else {
-    usermailField.disabled = true
+function saveup() {
+  let nom = document.getElementById('editnom');
+  let mail = document.getElementById('editmail');
+  let opass = document.getElementById('editopass');
+  let npass = document.getElementById('editnpass');
+
+  let insertData = {
+    'user_id': <?=$user['user_id']?>,
+    'nom': nom.value,
+    'mail': mail.value,
+    'opass': opass.value,
+    'npass': npass.value
   }
+  console.log(insertData)
+  console.log('stuff')
+  fetch('/util', {
+      method: 'PUT',
+      mode: 'no-cors',
+      body: JSON.stringify(insertData)
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.msg = 'Utilisateur Updated Successfully') {
+        window.location.href = '<?= base_url('/profile') ?>';
+      }
+    })
+    .catch(error => {
+      console.log(error)
+    });
+}
+
+function add() {
+  idField = document.getElementById('id');
+  mailField = document.getElementById('email');
+  nameField = document.getElementById('name');
+  passwordField = document.getElementById('password');
+  if (editBool) {
+    let insertData = {
+      "id": idField.value,
+      "name": nameField.value,
+      "email": mailField.value,
+      "password": passwordField.value
+    }
+    fetch('util/update', {
+        method: 'POST',
+        mode: 'no-cors',
+        body: JSON.stringify(insertData)
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log(data)
+        if (data.msg == 'Utilisateur Updated Successfully') {
+          cancel()
+          window.location.href = '<?= base_url('/profile') ?>';
+        }
+      })
+      .catch(error => {
+        console.log(error)
+      });
+  } else {
+    let insertData = {
+      "name": nameField.value,
+      "email": mailField.value,
+      "password": passwordField.value
+    }
+
+    fetch('util/insert', {
+        method: 'POST',
+        mode: 'no-cors',
+        body: JSON.stringify(insertData)
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log(data)
+        if (data.message == 'Utilisateur Created Successfully') {
+          window.location.href = '<?= base_url('/profile') ?>';
+        }
+      })
+      .catch(error => {
+        console.log(error)
+      });
+  }
+}
+
+function del(id) {
+  fetch(`util/${id}`, {
+      method: 'DELETE',
+      mode: 'no-cors',
+    })
+    .then(response => response)
+    .then(data => {
+      window.location.href = '<?= base_url('/profile') ?>';
+    })
+    .catch(error => {
+      console.error(error);
+    });
+}
+
+function edit(util) {
+  idField = document.getElementById('id');
+  mailField = document.getElementById('email');
+  nameField = document.getElementById('name');
+  passwordField = document.getElementById('password');
+
+  editBool = true
+  idField.value = util.id
+  mailField.value = util.email
+  nameField.value = util.nom
+
+}
+
+function cancel() {
+  editBool = false
+  mailField = document.getElementById('email');
+  nameField = document.getElementById('name');
+  passwordField = document.getElementById('password');
+
+  mailField.value = ""
+  nameField.value = ""
+  passwordField.value = ""
 }
 </script>
 <?= $this->endSection() ?>
